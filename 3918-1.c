@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+ {
+ 
+ char ch;
+ printf("enter to char=");
+ scanf("%c",&ch);
+ if (ch>='a' && ch<='z' || ch>='A' && ch<='z')
+ {
+ 	printf("value is alfabet",ch);
+ }
+ else if(ch>='0' && ch<='9'){ 
+    printf("value is degit",ch);
+ }
+ else {
+    printf ("value is spesial character",ch);
+}
+ 
+ 
+
+}
